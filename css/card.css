@@ -1,0 +1,19 @@
+.card-img-wrapper a {
+    display: block;
+    background-color: darkred;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    /*margin-bottom: 20px;*/
+    background-size: 100%;
+    transition: background-size 880ms;
+    background-image: url("../images/me.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.card-img-wrapper a:hover  {
+    background-size: 122%;
+}
+
